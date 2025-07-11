@@ -1,0 +1,21 @@
+Contract ID,Contract Type,Ground Truth,Predicted,Correct,Confidence,Num Detected Contradictions
+clean_1,consulting_agreement,False,False,True,0.95,0
+clean_2,confidentiality_agreement,False,False,True,0.95,0
+clean_3,licensing_agreement,False,False,True,0.95,0
+clean_4,confidentiality_agreement,False,False,True,0.95,0
+clean_5,rental_agreement,False,False,True,0.95,0
+clean_6,rental_agreement,False,False,True,0.95,0
+clean_7,confidentiality_agreement,False,False,True,0.95,0
+clean_8,licensing_agreement,False,False,True,0.95,0
+clean_9,employment_agreement,False,False,True,0.95,0
+clean_10,licensing_agreement,False,False,True,0.95,0
+contradiction_1,consulting_agreement,True,True,True,0.95,3
+contradiction_2,consulting_agreement,True,True,True,0.95,3
+contradiction_3,service_contract,True,True,True,0.95,3
+contradiction_4,service_contract,True,True,True,0.95,3
+contradiction_5,confidentiality_agreement,True,True,True,0.95,3
+contradiction_6,employment_agreement,True,True,True,0.95,3
+contradiction_7,employment_agreement,True,True,True,0.95,3
+contradiction_8,consulting_agreement,True,True,True,0.95,3
+contradiction_9,consulting_agreement,True,True,True,0.95,2
+contradiction_10,employment_agreement,True,True,True,0.95,3
