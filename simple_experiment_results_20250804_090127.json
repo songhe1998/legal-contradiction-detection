@@ -1,0 +1,292 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-08-04T09:01:27.370784",
+    "generator_model": "o3-mini",
+    "detector_model": "gpt-4o",
+    "total_contracts": 40,
+    "correct_predictions": 40,
+    "accuracy": 1.0
+  },
+  "detailed_results": [
+    {
+      "contract_id": "with_contradiction_1",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "THIS BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between XYZ Corporation, a Delaware corporation with its principa..."
+    },
+    {
+      "contract_id": "with_contradiction_2",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "MUTUAL MASTER SERVICE AGREEMENT\n\nThis Mutual Master Service Agreement (\u201cAgreement\u201d) is entered into as of the 1st day of May, 2023 (\u201cEffective Date\u201d), by and between AlphaTech Solutions, Inc., a Delaw..."
+    },
+    {
+      "contract_id": "with_contradiction_3",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "SERVICE AND SUPPLY AGREEMENT\n\nThis SERVICE AND SUPPLY AGREEMENT (\"Agreement\") is made and entered into as of the 1st day of October, 2023 (\"Effective Date\") by and between:\n\nAlpha & Beta Enterprises, ..."
+    },
+    {
+      "contract_id": "with_contradiction_4",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS TRANSACTION AND SERVICES AGREEMENT\n\nThis Business Transaction and Services Agreement (\u201cAgreement\u201d) is made and entered into as of March 1, 2023 (\u201cEffective Date\u201d), by and between Alpha Partne..."
+    },
+    {
+      "contract_id": "with_contradiction_5",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "THIS SERVICE AND SUPPLY AGREEMENT (the \u201cAgreement\u201d) is made and entered into as of the 1st day of September, 2023 (the \u201cEffective Date\u201d), by and between Global Innovations Limited, a Delaware corporat..."
+    },
+    {
+      "contract_id": "with_contradiction_6",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "THE SERVICE AND SUPPLY AGREEMENT (\u201cAgreement\u201d) entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between ALPHA SUPPLIES, INC., a Delaware corporation with its principal place..."
+    },
+    {
+      "contract_id": "with_contradiction_7",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "SERVICES AND COLLABORATION AGREEMENT\n\nThis SERVICES AND COLLABORATION AGREEMENT (the \u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (the \u201cEffective Date\u201d), by and between Al..."
+    },
+    {
+      "contract_id": "with_contradiction_8",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "CONSULTING SERVICES AGREEMENT\n\nThis Consulting Services Agreement (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Tech Solutions Inc., a Delaware c..."
+    },
+    {
+      "contract_id": "with_contradiction_9",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Consulting LLC, with its princi..."
+    },
+    {
+      "contract_id": "with_contradiction_10",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "CONTRACTUAL SERVICES AND SUPPLY AGREEMENT\n\nThis CONTRACTUAL SERVICES AND SUPPLY AGREEMENT (\u201cAgreement\u201d) is made and entered into as of the 1st day of June, 2023 (\u201cEffective Date\u201d), by and between Glob..."
+    },
+    {
+      "contract_id": "with_contradiction_11",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Dynamics, Inc., a Delaware corp..."
+    },
+    {
+      "contract_id": "with_contradiction_12",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d) by and between:\n\nAlpha Innovations, LLC, a Delaware l..."
+    },
+    {
+      "contract_id": "with_contradiction_13",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AND COLLABORATION AGREEMENT\n\nThis Business Services and Collaboration Agreement (\u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and ..."
+    },
+    {
+      "contract_id": "with_contradiction_14",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "CONTRACT FOR BUSINESS SERVICES\n\nThis Contract for Business Services (\u201cContract\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Solutions, Inc., a Delawar..."
+    },
+    {
+      "contract_id": "with_contradiction_15",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is made and entered into as of the 1st day of May, 2023 (\u201cEffective Date\u201d) by and between AlphaTech Solutions, Inc., a Delaw..."
+    },
+    {
+      "contract_id": "with_contradiction_16",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is made and entered into as of October 15, 2023 (\u201cEffective Date\u201d), by and between Quantum Solutions Inc., a Delaware corpor..."
+    },
+    {
+      "contract_id": "with_contradiction_17",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS COOPERATION AND SERVICES AGREEMENT\n\nThis BUSINESS COOPERATION AND SERVICES AGREEMENT (\u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and betw..."
+    },
+    {
+      "contract_id": "with_contradiction_18",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d) by and between Global Solutions Corporation, a Delawa..."
+    },
+    {
+      "contract_id": "with_contradiction_19",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS COLLABORATION AGREEMENT\n\nThis Business Collaboration Agreement (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Solutions, Inc., a De..."
+    },
+    {
+      "contract_id": "with_contradiction_20",
+      "has_contradiction": true,
+      "detected_contradiction": true,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Corporation, a Delaware corpora..."
+    },
+    {
+      "contract_id": "without_contradiction_1",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICE AGREEMENT\n\nThis Business Service Agreement (\u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Solutions, Inc., a Delaw..."
+    },
+    {
+      "contract_id": "without_contradiction_2",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "CONSULTING SERVICES AGREEMENT\n\nThis CONSULTING SERVICES AGREEMENT (\u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between GlobalTech Solutions, In..."
+    },
+    {
+      "contract_id": "without_contradiction_3",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS CONSULTING SERVICES AGREEMENT\n\nThis Business Consulting Services Agreement (\u201cAgreement\u201d) is entered into as of October 15, 2023 (\u201cEffective Date\u201d), by and between Apex Consulting Group, Inc.,..."
+    },
+    {
+      "contract_id": "without_contradiction_4",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Solutions, Inc., a Delaware cor..."
+    },
+    {
+      "contract_id": "without_contradiction_5",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is entered into and made effective as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between:\n\nAlpha Solutions,..."
+    },
+    {
+      "contract_id": "without_contradiction_6",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between:\n\nApex Solutions, Inc., a De..."
+    },
+    {
+      "contract_id": "without_contradiction_7",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is entered into effective as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between ABC Corporation, a Delaware..."
+    },
+    {
+      "contract_id": "without_contradiction_8",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is entered into as of October 15, 2023 (\"Effective Date\"), by and between Alpha Solutions, Inc., a Delaware corporation with..."
+    },
+    {
+      "contract_id": "without_contradiction_9",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Solutions, Inc., a Del..."
+    },
+    {
+      "contract_id": "without_contradiction_10",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is entered into as of the 1st day of October, 2023 (\u201cEffective Date\u201d), by and between GlobalTech Solutions, Inc., a Delaware..."
+    },
+    {
+      "contract_id": "without_contradiction_11",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is entered into as of September 15, 2023 (\u201cEffective Date\u201d), by and between Allied Solutions, Inc., a Delaware corporation w..."
+    },
+    {
+      "contract_id": "without_contradiction_12",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is made and entered into as of June 15, 2023 (\u201cEffective Date\u201d), by and between GlobalTech Solutions, Inc., a Delaware corpo..."
+    },
+    {
+      "contract_id": "without_contradiction_13",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (the \u201cAgreement\u201d) is entered into as of September 15, 2023 (the \u201cEffective Date\u201d) by and between ABC Corporation, a Delaware corporation w..."
+    },
+    {
+      "contract_id": "without_contradiction_14",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is entered into as of July 15, 2023 (\u201cEffective Date\u201d), by and between Alpha Consulting Group, Inc., a Delaware corporation ..."
+    },
+    {
+      "contract_id": "without_contradiction_15",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS CONSULTING SERVICES AGREEMENT\n\nThis BUSINESS CONSULTING SERVICES AGREEMENT (\u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha ..."
+    },
+    {
+      "contract_id": "without_contradiction_16",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is made and entered into as of July 15, 2023 (\u201cEffective Date\u201d), by and between:\n\n\u2022\u2003AlphaTech Solutions, Inc., a Delaware co..."
+    },
+    {
+      "contract_id": "without_contradiction_17",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "SERVICE AGREEMENT\n\nThis Service Agreement (the \u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (the \u201cEffective Date\u201d), by and between Alpha Solutions, LLC, a Delaware limited liabilit..."
+    },
+    {
+      "contract_id": "without_contradiction_18",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is made and entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Corporation, a Delawar..."
+    },
+    {
+      "contract_id": "without_contradiction_19",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nTHIS BUSINESS SERVICES AGREEMENT (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between ABC Corporation, a Delaware corporati..."
+    },
+    {
+      "contract_id": "without_contradiction_20",
+      "has_contradiction": false,
+      "detected_contradiction": false,
+      "correct": true,
+      "contract_text": "BUSINESS SERVICES AGREEMENT\n\nThis Business Services Agreement (\u201cAgreement\u201d) is entered into as of the 1st day of November, 2023 (\u201cEffective Date\u201d), by and between Alpha Solutions, Inc., a Delaware cor..."
+    }
+  ]
+}

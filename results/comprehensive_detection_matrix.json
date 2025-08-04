@@ -1,0 +1,1511 @@
+{
+  "gpt-4.1": {
+    "results": [
+      {
+        "contract_id": "gpt-4.1_clean_1",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4.1",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.98,
+        "word_count": 2016
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_1",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4.1",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.1 (Term) states that the Agreement's Initial Term is three years, but Section 3.3 (Equity) grants stock options vesting over a four-year period with a one-year cliff. This creates ambiguity as the Employee may not be employed for the full vesting period under the Agreement's term, leading to uncertainty about the vesting and exercise of options after the Agreement's expiration.",
+          "Section 1.2 (Duties) requires the Employee to devote their full business time and attention to the Company and prohibits engagement in any other business or professional activities without written consent. However, Section 2.2 (Renewal) allows for automatic renewal unless notice is given, but does not clarify whether the Employee is bound by the same exclusivity during any notice period or after notice of non-renewal, creating ambiguity regarding outside activities during these periods."
+        ],
+        "confidence_score": 0.85,
+        "word_count": 1367
+      },
+      {
+        "contract_id": "gpt-4.1_clean_2",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4.1",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 2108
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_2",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4.1",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1996
+      },
+      {
+        "contract_id": "gpt-4.1_clean_3",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4.1",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1700
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_3",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4.1",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 3.1 states that monthly rent is $1,400.00, but Section 3.5 states that the monthly rent is $1,500.00 for the first six months and then $1,400.00 thereafter. This creates ambiguity as to what the rent amount is during the first six months of the lease.",
+          "Section 2.2 allows the Tenant to terminate the Agreement at any time after the first six months with 30 days' notice, but Section 2.1 describes the lease as a fixed 12-month term. This creates ambiguity as to whether the lease is truly a fixed term or effectively a 6-month lease with a rolling month-to-month option thereafter."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 1414
+      },
+      {
+        "contract_id": "gpt-4.1_clean_4",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4.1",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 2100
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_4",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4.1",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1538
+      },
+      {
+        "contract_id": "gpt-4o_clean_1",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4.1",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 859
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_1",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4.1",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_2",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4.1",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1168
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_2",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4.1",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_3",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4.1",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 802
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_3",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4.1",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_4",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4.1",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.2 states the sale is on an 'as is' basis and Seller makes no warranties except as expressly stated, but Section 6.1 expressly provides a warranty that the Goods shall conform to the specifications in Exhibit A. This creates ambiguity as to whether the Goods are truly sold 'as is' or subject to conformity warranties.",
+          "Section 4.3 allows Buyer to terminate the Agreement without penalty if Seller fails to deliver by the Delivery Date, but Section 5 (Inspection and Acceptance) and Section 6 (Warranties) provide for post-delivery remedies (inspection, cure of non-conformity, warranties of conformity). This creates ambiguity as to whether Buyer's only remedy for late or non-conforming delivery is termination, or if Buyer may also seek cure or warranty remedies after delivery."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 872
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_4",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4.1",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "o3_clean_1",
+        "generator_model": "o3",
+        "detector_model": "gpt-4.1",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_1",
+        "generator_model": "o3",
+        "detector_model": "gpt-4.1",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_2",
+        "generator_model": "o3",
+        "detector_model": "gpt-4.1",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_2",
+        "generator_model": "o3",
+        "detector_model": "gpt-4.1",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_3",
+        "generator_model": "o3",
+        "detector_model": "gpt-4.1",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_3",
+        "generator_model": "o3",
+        "detector_model": "gpt-4.1",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_4",
+        "generator_model": "o3",
+        "detector_model": "gpt-4.1",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 8
+      },
+      {
+        "contract_id": "o3_contradiction_4",
+        "generator_model": "o3",
+        "detector_model": "gpt-4.1",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 8
+      },
+      {
+        "contract_id": "o3-mini_clean_1",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4.1",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1696
+      },
+      {
+        "contract_id": "o3-mini_contradiction_1",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4.1",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.1 states that the Employee’s employment commences on February 1, 2024, and continues for two years, but also notes that certain provisions commence from the Effective Date of January 1, 2024. This creates ambiguity as to whether the Employee is bound by obligations (such as confidentiality or IP assignment) before their employment actually begins, leading to potential legal uncertainty regarding the enforceability of those obligations during the gap between January 1 and February 1.",
+          "Section 1.2 defines 'Term' as the duration of employment as specified in Section 2, which is from February 1, 2024, to January 31, 2026. However, Section 2.1 and the reference to obligations commencing from the Effective Date (January 1, 2024) create a substantive conflict as to whether the 'Term' for certain obligations is longer than the actual employment period, leading to ambiguity about the scope and duration of contractual duties."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 1629
+      },
+      {
+        "contract_id": "o3-mini_clean_2",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4.1",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.85,
+        "word_count": 1920
+      },
+      {
+        "contract_id": "o3-mini_contradiction_2",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4.1",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 3.1 states the monthly fee is $2,000 per month, but also references Section 5.2, which sets the monthly recurring fee at $1,800 per month if a discount is applied pursuant to performance incentives. However, there is no further information provided about the conditions or criteria for the discount or performance incentives in the provided text, creating ambiguity as to which fee applies and under what circumstances.",
+          "Section 2.2 states that Services shall continue as provided herein, subject to termination as provided in Section 9. However, Section 9 is not included in the provided text, so the terms and conditions for termination are ambiguous, potentially leading to conflicting interpretations about the duration and termination rights."
+        ],
+        "confidence_score": 0.85,
+        "word_count": 1544
+      },
+      {
+        "contract_id": "o3-mini_clean_3",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4.1",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1925
+      },
+      {
+        "contract_id": "o3-mini_contradiction_3",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4.1",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2 states that the Lease Term commences on June 1, 2023, and Tenant is entitled to occupancy beginning on that date, but Section 3.2(a) states that the first monthly rent payment is due on or before July 1, 2023, creating ambiguity as to whether rent is owed for June 2023 or if June is rent-free.",
+          "Section 3.3 acknowledges that an earlier draft specified a Monthly Rent of $1,300 and that such figure may be referenced in notices delivered prior to May 15, 2023, but Section 3.1 requires payment of $1,200. This creates ambiguity regarding which amount is legally binding if a notice referencing $1,300 was delivered before May 15, 2023."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 1742
+      },
+      {
+        "contract_id": "o3-mini_clean_4",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4.1",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.85,
+        "word_count": 2006
+      },
+      {
+        "contract_id": "o3-mini_contradiction_4",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4.1",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.85,
+        "word_count": 1616
+      }
+    ],
+    "processing_time": 37.204347133636475
+  },
+  "gpt-4o": {
+    "results": [
+      {
+        "contract_id": "gpt-4.1_clean_1",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4o",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 2016
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_1",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4o",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "The Effective Date of the Agreement is June 1, 2024, as stated in the introductory paragraph, but the Term of Employment in Section 2.1 states that the term commences on June 15, 2024. This creates ambiguity about when the employment actually begins.",
+          "Section 3.3 mentions that the Employee shall be granted options to purchase 5,000 shares of the Company's common stock, vesting over a four-year period with a one-year cliff, but the sentence is incomplete and does not specify the full terms of the equity grant, creating ambiguity about the vesting schedule and conditions."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 1367
+      },
+      {
+        "contract_id": "gpt-4.1_clean_2",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4o",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 2108
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_2",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4o",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.9,
+        "word_count": 1996
+      },
+      {
+        "contract_id": "gpt-4.1_clean_3",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4o",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.9,
+        "word_count": 1700
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_3",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4o",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 3.1 states that the monthly Rent is $1,400.00, but Section 3.5 contradicts this by stating that the monthly Rent is $1,500.00 for the first six months of the Term, reverting to $1,400.00 thereafter.",
+          "Section 2.1 states the Term is for twelve months from July 1, 2024, to June 30, 2025, but Section 2.2 allows the Tenant to terminate the Agreement at any time after the first six months with thirty days' notice, creating ambiguity about the fixed nature of the twelve-month Term."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 1414
+      },
+      {
+        "contract_id": "gpt-4.1_clean_4",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4o",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 3.2(b) states that the remaining balance of the Purchase Price shall be paid in full no later than ten (10) Business Days prior to the Delivery Date, but Section 4.1 does not specify a Delivery Date, creating ambiguity about the exact deadline for the payment.",
+          "Section 4.3 mentions an Inspection Period of five (5) Business Days for the Buyer to inspect the Goods for conformity, but it does not specify the actions to be taken if the Goods do not conform, leading to potential ambiguity in the resolution process."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 2100
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_4",
+        "generator_model": "gpt-4.1",
+        "detector_model": "gpt-4o",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.9,
+        "word_count": 1538
+      },
+      {
+        "contract_id": "gpt-4o_clean_1",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4o",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.1 and Section 5.1: Section 2.1 states that the term of the Agreement is for a specific number of years, while Section 5.1 refers to a non-competition period following termination without specifying the number of months, creating ambiguity about the duration of the non-competition obligation.",
+          "Section 3.2 and Section 3.3: Section 3.2 states that the bonus is subject to the Employer's sole discretion, which could conflict with Section 3.3 if the bonus is considered part of the employee benefit plans and programs, which are generally available to all employees."
+        ],
+        "confidence_score": 0.85,
+        "word_count": 859
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_1",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4o",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_2",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4o",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "The contract does not specify the number of years for the term in section 2.1, which creates ambiguity about the duration of the agreement.",
+          "The contract does not specify the number of days for termination notice in sections 2.2 and 2.3, which creates ambiguity about the termination process.",
+          "The contract does not specify the number of days for payment terms in section 3.3, which creates ambiguity about the payment schedule."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 1168
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_2",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4o",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_3",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4o",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 9: The pet policy is not clearly defined as it provides two mutually exclusive options without specifying which one applies. This creates ambiguity regarding whether pets are allowed or not.",
+          "Section 4 and Section 7: There is potential ambiguity regarding the responsibility for damages. Section 4 allows deductions from the security deposit for damages, but Section 7 states the Landlord is responsible for major repairs unless caused by Tenant's negligence or misuse. It is unclear how damages are categorized and what constitutes 'major repairs' versus 'damages' for deposit deductions."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 802
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_3",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4o",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_4",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4o",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.2 states that the sale of Goods is on an 'as is' basis with no warranties, except as expressly stated in the Agreement. However, Section 6.1 provides a warranty that the Goods shall conform to the specifications set forth in Exhibit A, which contradicts the 'as is' clause.",
+          "Section 4.3 allows Buyer to terminate the Agreement without penalty if Seller fails to deliver the Goods by the Delivery Date. However, there is no provision for what happens to the Purchase Price if the Agreement is terminated, creating ambiguity regarding the refund or retention of any payments made."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 872
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_4",
+        "generator_model": "gpt-4o",
+        "detector_model": "gpt-4o",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "o3_clean_1",
+        "generator_model": "o3",
+        "detector_model": "gpt-4o",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_1",
+        "generator_model": "o3",
+        "detector_model": "gpt-4o",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.9,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_2",
+        "generator_model": "o3",
+        "detector_model": "gpt-4o",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_2",
+        "generator_model": "o3",
+        "detector_model": "gpt-4o",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_3",
+        "generator_model": "o3",
+        "detector_model": "gpt-4o",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_3",
+        "generator_model": "o3",
+        "detector_model": "gpt-4o",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_4",
+        "generator_model": "o3",
+        "detector_model": "gpt-4o",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 8
+      },
+      {
+        "contract_id": "o3_contradiction_4",
+        "generator_model": "o3",
+        "detector_model": "gpt-4o",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.9,
+        "word_count": 8
+      },
+      {
+        "contract_id": "o3-mini_clean_1",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4o",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.9,
+        "word_count": 1696
+      },
+      {
+        "contract_id": "o3-mini_contradiction_1",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4o",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "The Term of Employment in Section 2.1 states that employment commences on February 1, 2024, but certain obligations commence from the Effective Date of January 1, 2024, creating ambiguity about the start of employment obligations.",
+          "Section 2.1 specifies a Term of two years, but Section 2.2 states that the Agreement is not automatically renewable, which could create confusion if the parties intend for the employment to continue beyond the initial Term without a new agreement."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 1629
+      },
+      {
+        "contract_id": "o3-mini_clean_2",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4o",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.9,
+        "word_count": 1920
+      },
+      {
+        "contract_id": "o3-mini_contradiction_2",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4o",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "The contradiction in the monthly fee amount: Section 3.1 states the fee is $2,000 per month, while Section 5.2 mentions a fee of $1,800 per month if a discount is applied. This creates ambiguity regarding the actual fee amount and the conditions under which the discount applies."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 1544
+      },
+      {
+        "contract_id": "o3-mini_clean_3",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4o",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.9,
+        "word_count": 1925
+      },
+      {
+        "contract_id": "o3-mini_contradiction_3",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4o",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Contradiction in rental payment start date: Section 2 states the Lease Term commences on June 1, 2023, allowing occupancy from that date, but Section 3.2(a) states the first rent payment is due on or before July 1, 2023, creating ambiguity about rent payment obligations for June.",
+          "Contradiction in rental amount: Section 3.1 specifies a Monthly Rent of $1,200.00, but Section 3.3 acknowledges an earlier draft with a Monthly Rent of $1,300.00, which may be referenced in notices prior to May 15, 2023, potentially causing confusion about the correct rental amount."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 1742
+      },
+      {
+        "contract_id": "o3-mini_clean_4",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4o",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.1 states that the sale is on a 'FOB Seller’s Facility' basis, which typically means the Buyer takes responsibility for the goods once they leave the Seller's facility. However, Section 1.3 defines 'Delivery Date' as the date on which the Products are to be delivered to Buyer’s designated location, implying Seller's responsibility until delivery to the Buyer's location. This creates ambiguity regarding the point at which risk and responsibility transfer from Seller to Buyer.",
+          "Section 3.1 states that the Purchase Price includes all applicable taxes, fees, and charges unless otherwise agreed in writing by the Parties. However, there is no provision in the contract that allows for such an agreement to be made in writing, creating ambiguity about how additional taxes, fees, or charges would be handled if they arise."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 2006
+      },
+      {
+        "contract_id": "o3-mini_contradiction_4",
+        "generator_model": "o3-mini",
+        "detector_model": "gpt-4o",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.2.b states that the remaining balance of the Purchase Price is due on the Delivery Date as defined in Section 4, but there is no Section 4 provided in the contract, creating ambiguity about the exact due date for the remaining balance.",
+          "Section 3.2 specifies that the Products shall be delivered on or before January 15, 2024, but there is no Section 4 to define the Delivery Date, leading to potential confusion about the exact delivery timeline."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 1616
+      }
+    ],
+    "processing_time": 58.18011975288391
+  },
+  "o3": {
+    "results": [
+      {
+        "contract_id": "gpt-4.1_clean_1",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.27,
+        "word_count": 2016
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_1",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1367
+      },
+      {
+        "contract_id": "gpt-4.1_clean_2",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 3.4 requires Client to pay undisputed amounts within thirty (30) days of RECEIPT of the invoice, whereas Section 3.5 states that late-payment interest begins to accrue if an undisputed payment is not received within thirty (30) days of the INVOICE DATE. If the Client receives the invoice several days after the invoice date (e.g., mailed invoices), the two provisions create an ambiguity as to when the 30-day clock starts, making it unclear when interest may legally be charged."
+        ],
+        "confidence_score": 0.63,
+        "word_count": 2108
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_2",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.3 states that a party may \"terminate this Agreement immediately upon written notice\" if the other party materially breaches and \"fails to cure such breach within fifteen (15) days after receipt of written notice.\" The phrase \"immediately upon written notice\" conflicts with the requirement that 15 days first be allowed for cure, creating ambiguity as to whether termination is effective at once or only after the cure period."
+        ],
+        "confidence_score": 0.41,
+        "word_count": 1996
+      },
+      {
+        "contract_id": "gpt-4.1_clean_3",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 1.1 vs. Section 1.2: If the parties select the month-to-month option in 1.1 (thereby creating no fixed Expiration Date), Section 1.2 still conditions automatic conversion on the absence of a non-renewal notice given 30 days \"prior to the Expiration Date.\" Because a month-to-month tenancy has no Expiration Date, the triggering event described in 1.2 can never occur, creating ambiguity about whether any notice is required to terminate or whether 1.2 applies at all."
+        ],
+        "confidence_score": 0.28,
+        "word_count": 1700
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_3",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.21,
+        "word_count": 1414
+      },
+      {
+        "contract_id": "gpt-4.1_clean_4",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.27,
+        "word_count": 2100
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_4",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1538
+      },
+      {
+        "contract_id": "gpt-4o_clean_1",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.34,
+        "word_count": 859
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_1",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.01,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_2",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.15,
+        "word_count": 1168
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_2",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.05,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_3",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 9 (PET POLICY) contains two mutually exclusive clauses—one prohibiting pets entirely and the other permitting pets subject to conditions—without specifying which applies. Leaving both alternatives in the executed contract creates legal ambiguity over whether pets are allowed."
+        ],
+        "confidence_score": 0.55,
+        "word_count": 802
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_3",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.05,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_4",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 4.2 states that risk of loss and title pass to Buyer \"upon delivery,\" while Section 5 gives Buyer an inspection period and the right to reject non-conforming Goods. If risk has already passed at the moment of delivery, Buyer bears loss even before deciding whether to accept or reject the Goods, defeating the protection intended by Section 5 and creating ambiguity over who bears the risk during the inspection period.",
+          "Section 2.2 provides that the sale is on an \"as is\" basis and that Seller makes \"no warranties, express or implied, except as expressly stated in this Agreement,\" yet Section 6.1 creates an express warranty that the Goods \"shall conform to the specifications set forth in Exhibit A.\" The broad \"as is\" language can be read to disclaim all warranties—including those in Section 6—while the carve-out \"except as expressly stated\" attempts to preserve them, producing a potential conflict over the scope and enforceability of Seller’s warranty obligations."
+        ],
+        "confidence_score": 0.34,
+        "word_count": 872
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_4",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.05,
+        "word_count": 1
+      },
+      {
+        "contract_id": "o3_clean_1",
+        "generator_model": "o3",
+        "detector_model": "o3",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.12,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_1",
+        "generator_model": "o3",
+        "detector_model": "o3",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.08,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_2",
+        "generator_model": "o3",
+        "detector_model": "o3",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.09,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_2",
+        "generator_model": "o3",
+        "detector_model": "o3",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.1,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_3",
+        "generator_model": "o3",
+        "detector_model": "o3",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.08,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_3",
+        "generator_model": "o3",
+        "detector_model": "o3",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.14,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_4",
+        "generator_model": "o3",
+        "detector_model": "o3",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.9,
+        "word_count": 8
+      },
+      {
+        "contract_id": "o3_contradiction_4",
+        "generator_model": "o3",
+        "detector_model": "o3",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.23,
+        "word_count": 8
+      },
+      {
+        "contract_id": "o3-mini_clean_1",
+        "generator_model": "o3-mini",
+        "detector_model": "o3",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.15,
+        "word_count": 1696
+      },
+      {
+        "contract_id": "o3-mini_contradiction_1",
+        "generator_model": "o3-mini",
+        "detector_model": "o3",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.26,
+        "word_count": 1629
+      },
+      {
+        "contract_id": "o3-mini_clean_2",
+        "generator_model": "o3-mini",
+        "detector_model": "o3",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.15,
+        "word_count": 1920
+      },
+      {
+        "contract_id": "o3-mini_contradiction_2",
+        "generator_model": "o3-mini",
+        "detector_model": "o3",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 3.1 sets the monthly fee at $2,000, yet it simultaneously references Section 5.2 as establishing a fee of $1,800 ‘if a discount is applied pursuant to performance incentives.’ Because no criteria or mechanism for those ‘performance incentives’ is provided in the Agreement excerpt, it is ambiguous whether the binding monthly fee is $2,000 or $1,800, creating a substantive payment conflict between Sections 3.1 and 5.2."
+        ],
+        "confidence_score": 0.46,
+        "word_count": 1544
+      },
+      {
+        "contract_id": "o3-mini_clean_3",
+        "generator_model": "o3-mini",
+        "detector_model": "o3",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.22,
+        "word_count": 1925
+      },
+      {
+        "contract_id": "o3-mini_contradiction_3",
+        "generator_model": "o3-mini",
+        "detector_model": "o3",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 1.2 and Section 2 state that the Lease Term begins on June 1, 2023, giving Tenant the right to occupy the Premises from that date, yet Section 3.2(a) defers the first monthly rent payment until July 1, 2023. Because no provision expressly grants a rent-free first month, this creates ambiguity over whether rent is owed for June 2023 or whether June is free, producing a substantive conflict between the rent-payment obligations and the stated commencement of the lease."
+        ],
+        "confidence_score": 0.26,
+        "word_count": 1742
+      },
+      {
+        "contract_id": "o3-mini_clean_4",
+        "generator_model": "o3-mini",
+        "detector_model": "o3",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.13,
+        "word_count": 2006
+      },
+      {
+        "contract_id": "o3-mini_contradiction_4",
+        "generator_model": "o3-mini",
+        "detector_model": "o3",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "\"Purchase Price\" definition conflict: Section 1.3 says the Purchase Price is the amount stated in Section 3, but Section 3 deals with Delivery and Risk of Loss and contains no price; the actual dollar amount appears in Section 2.1. This inconsistent cross-reference makes it unclear which figure governs.",
+          "\"Delivery Date\" cross-reference conflict: Section 1.4 (and Section 2.2(b)) say the Delivery Date is specified in Section 4, yet Section 3.2 independently fixes the Delivery Date as \"on or before January 15, 2024\" while Section 4 is not shown to contain such a date. The mismatch creates ambiguity about the operative Delivery Date and, consequently, the payment due date tied to it."
+        ],
+        "confidence_score": 0.46,
+        "word_count": 1616
+      }
+    ],
+    "processing_time": 211.00433921813965
+  },
+  "o3-mini": {
+    "results": [
+      {
+        "contract_id": "gpt-4.1_clean_1",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3-mini",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 2016
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_1",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3-mini",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1367
+      },
+      {
+        "contract_id": "gpt-4.1_clean_2",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3-mini",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 2108
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_2",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3-mini",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1996
+      },
+      {
+        "contract_id": "gpt-4.1_clean_3",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3-mini",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1700
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_3",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3-mini",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "There is a contradiction in the Rent provisions: Section 3.1 specifies a monthly rent of $1,400, while Section 3.5 states that the rent will be $1,500 for the first six months, then reverting to $1,400 thereafter, which creates legal ambiguity regarding the applicable rent during the initial six-month period."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 1414
+      },
+      {
+        "contract_id": "gpt-4.1_clean_4",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3-mini",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 2100
+      },
+      {
+        "contract_id": "gpt-4.1_contradiction_4",
+        "generator_model": "gpt-4.1",
+        "detector_model": "o3-mini",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1538
+      },
+      {
+        "contract_id": "gpt-4o_clean_1",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3-mini",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 859
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_1",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3-mini",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_2",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3-mini",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1168
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_2",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3-mini",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_3",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3-mini",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 802
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_3",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3-mini",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "gpt-4o_clean_4",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3-mini",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 872
+      },
+      {
+        "contract_id": "gpt-4o_contradiction_4",
+        "generator_model": "gpt-4o",
+        "detector_model": "o3-mini",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 1
+      },
+      {
+        "contract_id": "o3_clean_1",
+        "generator_model": "o3",
+        "detector_model": "o3-mini",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_1",
+        "generator_model": "o3",
+        "detector_model": "o3-mini",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_2",
+        "generator_model": "o3",
+        "detector_model": "o3-mini",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_2",
+        "generator_model": "o3",
+        "detector_model": "o3-mini",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_3",
+        "generator_model": "o3",
+        "detector_model": "o3-mini",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_contradiction_3",
+        "generator_model": "o3",
+        "detector_model": "o3-mini",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 0
+      },
+      {
+        "contract_id": "o3_clean_4",
+        "generator_model": "o3",
+        "detector_model": "o3-mini",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 8
+      },
+      {
+        "contract_id": "o3_contradiction_4",
+        "generator_model": "o3",
+        "detector_model": "o3-mini",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 8
+      },
+      {
+        "contract_id": "o3-mini_clean_1",
+        "generator_model": "o3-mini",
+        "detector_model": "o3-mini",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1696
+      },
+      {
+        "contract_id": "o3-mini_contradiction_1",
+        "generator_model": "o3-mini",
+        "detector_model": "o3-mini",
+        "contract_type": "employment_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.1 sets the employment commencement date as February 1, 2024, yet the Agreement states it is made effective as of January 1, 2024 and indicates that certain obligations begin on the Effective Date. This discrepancy in dates may lead to ambiguity about when the Employee’s rights and obligations under the Agreement officially start."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 1629
+      },
+      {
+        "contract_id": "o3-mini_clean_2",
+        "generator_model": "o3-mini",
+        "detector_model": "o3-mini",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 1920
+      },
+      {
+        "contract_id": "o3-mini_contradiction_2",
+        "generator_model": "o3-mini",
+        "detector_model": "o3-mini",
+        "contract_type": "service_contract",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 3.1 sets the monthly fee at $2,000, but it also notes that Section 5.2 states a fee of $1,800 per month if a discount under performance incentives applies. This creates substantive ambiguity regarding which fee is the default and under what conditions the lower fee applies."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 1544
+      },
+      {
+        "contract_id": "o3-mini_clean_3",
+        "generator_model": "o3-mini",
+        "detector_model": "o3-mini",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 1925
+      },
+      {
+        "contract_id": "o3-mini_contradiction_3",
+        "generator_model": "o3-mini",
+        "detector_model": "o3-mini",
+        "contract_type": "rental_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "The Lease Term is set to begin on June 1, 2023, yet the first rent payment is not due until July 1, 2023. This creates ambiguity regarding payment for the occupancy period starting in June and whether there should be a proration or an alternative arrangement for the first month.",
+          "Section 3.3 acknowledges an earlier draft with a Monthly Rent of $1,300.00 that may be referenced in notices before May 15, 2023, while Section 3.1 clearly states the rent as $1,200.00. This discrepancy can lead to legal ambiguity about which amount applies if communications or notices fall within that transitional period."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 1742
+      },
+      {
+        "contract_id": "o3-mini_clean_4",
+        "generator_model": "o3-mini",
+        "detector_model": "o3-mini",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 2006
+      },
+      {
+        "contract_id": "o3-mini_contradiction_4",
+        "generator_model": "o3-mini",
+        "detector_model": "o3-mini",
+        "contract_type": "purchase_agreement",
+        "ground_truth": true,
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 1616
+      }
+    ],
+    "processing_time": 171.16971898078918
+  }
+}

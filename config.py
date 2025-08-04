@@ -1,3 +1,5 @@
+# config.py - Configuration settings for Legal Contradiction Detection
+
 import os
 from dotenv import load_dotenv
 
@@ -6,34 +8,35 @@ load_dotenv()
 
 # OpenAI Configuration
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-MODEL_NAME = "gpt-4o"  # Use gpt-4o directly since o3-mini is failing
-FALLBACK_MODEL = "gpt-4o-mini"  # Fallback to mini version
+MODEL_NAME = "o3-mini"  # Using o3-mini for contract generation
+FALLBACK_MODEL = "gpt-4o"  # Fallback to gpt-4o if o3-mini fails
 MAX_TOKENS = 4000  # Increased for longer contracts
 TEMPERATURE = 0.1  # Low temperature for consistent, analytical responses
 
-# Generation Configuration - Long contracts test
-NUM_CONTRACTS_WITH_CONTRADICTIONS = 8  # Fewer contracts but much longer
-NUM_CONTRACTS_WITHOUT_CONTRADICTIONS = 8  # Fewer contracts but much longer
-TOTAL_CONTRACTS = NUM_CONTRACTS_WITH_CONTRADICTIONS + NUM_CONTRACTS_WITHOUT_CONTRADICTIONS
+# Generation Configuration
+NUM_CONTRACTS = 8  # Reduced for testing (4 clean + 4 with contradictions)
+LONG_CONTRACT_MODE = True  # Enable long contract generation
+MIN_CONTRACT_LENGTH = 2000  # Minimum word count for long contracts
+MAX_CONTRACT_LENGTH = 3500  # Maximum word count for long contracts
 
-# Legal Contract Types
+# Contract Types
 CONTRACT_TYPES = [
     "employment_agreement",
     "service_contract", 
     "rental_agreement",
     "purchase_agreement",
-    "partnership_agreement",
+    "consulting_agreement",
     "licensing_agreement",
-    "confidentiality_agreement",
-    "consulting_agreement"
+    "partnership_agreement",
+    "non_disclosure_agreement"
 ]
 
 # Output Configuration
-OUTPUT_DIR = "results"
-CONTRACTS_DIR = "generated_contracts"
-REPORTS_DIR = "reports"
+OUTPUT_DIR = "generated_contracts"
+RESULTS_DIR = "results"
 
-# Long Contract Configuration
-LONG_CONTRACT_MODE = True
-MIN_CONTRACT_LENGTH = 2000  # Minimum words
-MAX_CONTRACT_LENGTH = 3500  # Maximum words 
+# Detection Models for Comparison
+DETECTION_MODELS = {
+    "o3-mini": "o3-mini",
+    "gpt-4o": "gpt-4o"
+} 

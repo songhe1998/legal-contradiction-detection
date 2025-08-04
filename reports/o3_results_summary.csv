@@ -1,0 +1,17 @@
+Contract ID,Contract Type,Ground Truth,Predicted,Correct,Confidence,Num Detected Contradictions
+long_clean_1,rental_agreement,False,False,True,1.0,0
+long_clean_2,consulting_agreement,False,False,True,0.95,0
+long_clean_3,employment_agreement,False,True,False,0.95,1
+long_clean_4,service_contract,False,True,False,0.95,1
+long_clean_5,consulting_agreement,False,True,False,0.95,1
+long_clean_6,licensing_agreement,False,True,False,0.95,1
+long_clean_7,consulting_agreement,False,True,False,0.95,1
+long_clean_8,service_contract,False,True,False,0.95,1
+long_contradiction_1,purchase_agreement,True,False,False,1.0,0
+long_contradiction_2,employment_agreement,True,True,True,0.95,4
+long_contradiction_3,service_contract,True,True,True,1.0,4
+long_contradiction_4,employment_agreement,True,True,True,0.95,3
+long_contradiction_5,consulting_agreement,True,False,False,1.0,0
+long_contradiction_6,purchase_agreement,True,True,True,1.0,5
+long_contradiction_7,service_contract,True,True,True,0.95,5
+long_contradiction_8,purchase_agreement,True,False,False,1.0,0

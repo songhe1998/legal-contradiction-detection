@@ -64,22 +64,38 @@ class ContradictionDetector:
         
         try:
             # Try primary model first
-            response = self.client.chat.completions.create(
-                model=MODEL_NAME,
-                messages=[{"role": "user", "content": prompt}],
-                max_tokens=MAX_TOKENS,
-                temperature=TEMPERATURE
-            )
-        except Exception as primary_error:
-            # Fallback to secondary model if primary fails
-            print(f"Primary model {MODEL_NAME} failed, trying fallback model {FALLBACK_MODEL}")
-            try:
+            # Use different parameters for o3 models vs others
+            if MODEL_NAME.startswith('o3'):
                 response = self.client.chat.completions.create(
-                    model=FALLBACK_MODEL,
+                    model=MODEL_NAME,
+                    messages=[{"role": "user", "content": prompt}],
+                    max_completion_tokens=MAX_TOKENS
+                )
+            else:
+                response = self.client.chat.completions.create(
+                    model=MODEL_NAME,
                     messages=[{"role": "user", "content": prompt}],
                     max_tokens=MAX_TOKENS,
                     temperature=TEMPERATURE
                 )
+        except Exception as primary_error:
+            # Fallback to secondary model if primary fails
+            print(f"Primary model {MODEL_NAME} failed, trying fallback model {FALLBACK_MODEL}")
+            try:
+                # Use appropriate parameter for fallback model
+                if FALLBACK_MODEL.startswith('o3'):
+                    response = self.client.chat.completions.create(
+                        model=FALLBACK_MODEL,
+                        messages=[{"role": "user", "content": prompt}],
+                        max_completion_tokens=MAX_TOKENS
+                    )
+                else:
+                    response = self.client.chat.completions.create(
+                        model=FALLBACK_MODEL,
+                        messages=[{"role": "user", "content": prompt}],
+                        max_tokens=MAX_TOKENS,
+                        temperature=TEMPERATURE
+                    )
             except Exception as fallback_error:
                 print(f"Both models failed. Primary: {primary_error}, Fallback: {fallback_error}")
                 return False, [], 0.0

@@ -1,0 +1,292 @@
+{
+  "o3-mini": {
+    "results": [
+      {
+        "contract_id": "o3_clean_1",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "known_contradictions": [],
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 2754,
+        "detector_model": "o3-mini",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_clean_2",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "known_contradictions": [],
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.0,
+        "word_count": 2714,
+        "detector_model": "o3-mini",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_clean_3",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "known_contradictions": [],
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 1.0,
+        "word_count": 2622,
+        "detector_model": "o3-mini",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_clean_4",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "known_contradictions": [],
+        "predicted_contradictions": false,
+        "detected_contradictions": [],
+        "confidence_score": 0.95,
+        "word_count": 2572,
+        "detector_model": "o3-mini",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_contradiction_1",
+        "contract_type": "consulting_agreement",
+        "ground_truth": true,
+        "known_contradictions": [
+          "JSON parsing failed - manual review needed"
+        ],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 3.1 sets the contract Term to end on January 31, 2024, while Section 6.3 and the Project Milestones in Exhibit A extend deliverable deadlines to February 1, 2025, creating a conflict in the performance period.",
+          "Section 4.3 (monthly invoicing and penalty fees) conflicts with Section 6.2's milestone-based deductions and Section 6.3's extended payment framework, leading to ambiguity in payment due dates and penalty calculations.",
+          "Section 4.5’s dual payment structure (hourly vs. fixed fee) and the installment framework in Section 6.3 may lead to confusion over overlapping fees for services rendered within the same period.",
+          "Section 7.1 asserts that all Deliverables and related Intellectual Property vest in CLIENT, while Section 7.3 states that CONSULTANT retains rights to its methodologies and proprietary techniques, potentially causing disputes over jointly developed content.",
+          "Section 8.2 sets a 5-year confidentiality period post-termination, whereas Section 8.3 specifies that confidentiality obligations expire one year after termination, creating ambiguity about the proper duration of confidentiality.",
+          "Section 10.3’s liability cap for CONSULTANT may be effectively exceeded by penalty fees outlined in Section 4.3, resulting in a potential conflict in the limitation of liability.",
+          "Section 11.1 establishes Delaware law as governing, but Sections 11.3 and 11.4 mandate arbitration and court actions exclusively in New York, leading to jurisdictional ambiguity regarding dispute resolution."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 2165,
+        "detector_model": "o3-mini",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_contradiction_2",
+        "contract_type": "licensing_agreement",
+        "ground_truth": true,
+        "known_contradictions": [
+          "JSON parsing failed - manual review needed"
+        ],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 4.1 states that the Agreement continues until December 31, 2025, while another section (referenced in Section 4.1) indicates a termination date of December 31, 2024, creating ambiguity about the overall term of the Agreement.",
+          "Section 5.1 requires a one-time fee payment of $50,000, but Section 5.4 outlines a quarterly installment schedule of $15,000 over two years, leading to conflicting payment structures.",
+          "Section 3.1 assigns maintenance responsibilities (including provision of current Licensed Materials and related documentation) to Licensor, whereas Section 6.2 shifts the responsibility for maintaining and updating certain intellectual property registration records to Licensee, resulting in conflicting maintenance obligations.",
+          "Section 8.2 requires confidentiality obligations to survive for five years post-termination, while Section 14.1 extends these obligations to ten years, causing a direct conflict regarding the duration of confidentiality.",
+          "Section 7.2 provides that technical support by Licensor is available during normal operations, yet Section 13.1 guarantees 30 days of transitional support post-termination, even though another part of Section 7.2 implies support ceases upon termination, creating confusion over post-termination support responsibilities."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 2385,
+        "detector_model": "o3-mini",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_contradiction_3",
+        "contract_type": "partnership_agreement",
+        "ground_truth": true,
+        "known_contradictions": [
+          "Conflicting Payment Terms: Section 5.1 specifies quarterly distribution of Net Profits with payments made within 10 days after quarter-end, while Section 5.3 mandates monthly distributions with payments processed within 15 days after month-end, leading to ambiguity regarding the consistent schedule of profit distributions.",
+          "Conflicting Intellectual Property Ownership: Section 6.2 provides for joint ownership of Intellectual Property developed during the partnership, whereas Section 8.5 states that all Intellectual Property arising from the collaboration shall be solely owned by Partner B, except as otherwise provided in addenda. This creates uncertainty regarding the actual ownership structure.",
+          "Contradictory Termination Notice Periods: Section 8.4(a) requires a 30-day notice period for termination without cause, yet Section 11.1 later stipulates conditions that necessitate a 60-day notice period under certain circumstances, generating a potential conflict in the termination procedure.",
+          "Conflicting Confidentiality Duration: Section 7.2 establishes a confidentiality obligation for 5 years after termination, but Section 7.3 implies that, for certain highly sensitive information, confidentiality obligations may extend indefinitely, leading to potential disputes on confidentiality duration.",
+          "Inconsistent Governing Law and Dispute Resolution: Section 11.1 designates New York law as the governing law for this Agreement, while Section 9.4 mandates that disputes related solely to confidentiality be litigated in Delaware. This creates a jurisdictional ambiguity regarding which state’s laws and venue govern different aspects of disputes under this Agreement."
+        ],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Intellectual Property Conflict: Section 6.2 states that jointly developed intellectual property shall be jointly owned by the Partners, while Section 8.5 later declares that all Intellectual Property arising from collaboration shall be solely owned by Partner B, creating a substantive conflict regarding ownership rights.",
+          "Profit Distribution Timing: Section 5.2 indicates that profit payments are calculated quarterly and distributed within ten days of quarter-end, yet Section 5.3 specifies that profit distributions occur on a monthly basis with payments processed within fifteen days after month-end, resulting in ambiguity over the frequency and timing of payments.",
+          "Termination Notice Period: Section 8.4(a) requires a thirty-day notice for termination without cause, but later provisions (as noted in the commentary referencing Section 11.1) mandate a sixty-day notice period under certain conditions, leading to conflicting termination requirements.",
+          "Dispute Resolution Mechanism: Sections 9.2 and 9.3 provide a mediation and arbitration process for resolving disputes, while Section 9.4 directs that disputes specifically regarding breaches of confidentiality be resolved exclusively through litigation in Delaware. Additionally, Section 11.1 establishes New York as the governing law, thereby creating a jurisdictional and procedural conflict.",
+          "Confidentiality Duration: Section 7.2 states that confidentiality obligations survive for five years post-termination, yet a note in Section 10.2 (and echoed in Appendix A.4) suggests that for highly sensitive materials the confidentiality obligations could extend indefinitely, introducing a contradiction in the duration of confidentiality obligations.",
+          "Decision-Making Responsibilities: In Section 4.3, the roles for managing day-to-day operations are delineated with Partner A and Partner B having separate duties; however, a later statement implies that overall strategic decision-making is to be shared equally between the Partners, causing potential conflict in governance and decision responsibilities."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 2331,
+        "detector_model": "o3-mini",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_contradiction_4",
+        "contract_type": "non_disclosure_agreement",
+        "ground_truth": true,
+        "known_contradictions": [
+          "JSON parsing failed - manual review needed"
+        ],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 8.1 mandates that confidentiality obligations survive for 3 years post-termination, while Section 10 requires a 5-year survival period, creating ambiguity regarding the applicable duration of confidentiality obligations.",
+          "Section 14 establishes that the Agreement is governed by New York law, whereas Section 16.2 requires mediation in California under conflicting rules, leading to potential jurisdictional and procedural conflicts.",
+          "Section 9.2 grants the Receiving Party a non-exclusive license for internally used derivative works, but Section 11.1 states that any jointly developed intellectual property is owned jointly by both Parties, resulting in conflicting provisions on ownership and usage rights for jointly developed IP.",
+          "Section 5.2 and Section 12.3 outline responsibilities related to documenting and safeguarding proprietary information and secure storage, creating ambiguity over which Party bears ultimate responsibility in the event of a data breach or compromise.",
+          "Section 1 provides a definition of Confidential Information that excludes publicly available data, yet Section 18.4 indicates inconsistencies in this definition across the Agreement, leading to uncertainty about what is actually covered."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 2156,
+        "detector_model": "o3-mini",
+        "generator_model": "o3-mini"
+      }
+    ],
+    "processing_time": 82.26025199890137
+  },
+  "gpt-4o": {
+    "results": [
+      {
+        "contract_id": "o3_clean_1",
+        "contract_type": "employment_agreement",
+        "ground_truth": false,
+        "known_contradictions": [],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 2.1 states that the employment relationship is at-will, allowing termination at any time with or without cause or prior notice, except as otherwise provided. However, Section 8.1(a) requires a Notice Period of thirty (30) days for termination by the Employer, creating a contradiction regarding the requirement of notice for termination.",
+          "Section 8.1(a) allows Employer to terminate Employee with or without cause upon providing a Notice Period of thirty (30) days, while Section 8.1(b) allows for immediate termination for cause without notice. This creates ambiguity about whether notice is required when termination is for cause."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 2754,
+        "detector_model": "gpt-4o",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_clean_2",
+        "contract_type": "service_contract",
+        "ground_truth": false,
+        "known_contradictions": [],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 5.2.2 states that Client shall own all right, title, and interest in and to any deliverables, work product, or other materials created for Client under a SOW, subject to and including Service Provider’s underlying intellectual property rights. However, Section 5.2.1 states that Service Provider retains all right, title, and interest in and to any of its pre-existing intellectual property or any modifications or enhancements thereto that are not specifically created for Client as part of the Deliverables. This creates a potential contradiction regarding the ownership of modifications or enhancements to pre-existing intellectual property that are created for Client.",
+          "Section 8.4.2 states that the rights and obligations under Sections 5 (Confidentiality and Intellectual Property), 6 (Warranties, Representations and Indemnification), 7 (Dispute Resolution and Governing Law), 9 (Limitation of Liability), and any other provisions which by their nature are intended to survive termination, shall survive the termination of this Agreement. However, Section 9.10 lists different sections intended to survive termination, including Sections 5, 6, 7, 8.4, 9.2, 9.3, 9.4, 9.7, and 9.10. The inconsistency in the list of surviving sections creates ambiguity."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 2714,
+        "detector_model": "gpt-4o",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_clean_3",
+        "contract_type": "rental_agreement",
+        "ground_truth": false,
+        "known_contradictions": [],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 1.2 describes the Premises as a unit located at 456 Elm Street, Unit 2B, Hometown, State 54321, while Section 2.1 describes the Premises as a single-family residence with three bedrooms and an attached garage. These descriptions are contradictory as a unit in a multi-unit building typically does not have an attached garage or multiple bedrooms as described.",
+          "Section 3.3.a states that a Late Fee of 5% of the amount due will be assessed for each day Rent is late, up to a maximum of 25% of the overdue amount. This could be interpreted as a daily compounding fee, which may conflict with typical interpretations of late fees and could be seen as usurious or unenforceable under certain state laws."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 2622,
+        "detector_model": "gpt-4o",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_clean_4",
+        "contract_type": "purchase_agreement",
+        "ground_truth": false,
+        "known_contradictions": [],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 3.2(b)(i) states that 50% of the remaining balance (US $202,500) shall be paid by Buyer no later than the Closing Date, while Section 8.2(b) implies that this payment is due at the Closing. This creates ambiguity regarding the exact timing of the payment.",
+          "Section 4.1 states that delivery shall occur no later than July 31, 2023, while Section 1.3 defines the Closing Date as no later than July 15, 2023. This creates a contradiction regarding the timeline for delivery and closing."
+        ],
+        "confidence_score": 0.9,
+        "word_count": 2572,
+        "detector_model": "gpt-4o",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_contradiction_1",
+        "contract_type": "consulting_agreement",
+        "ground_truth": true,
+        "known_contradictions": [
+          "JSON parsing failed - manual review needed"
+        ],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "The Term and Termination sections (3.1 and 6.3) conflict regarding the duration of the Agreement. Section 3.1 states the Agreement ends on January 31, 2024, while Section 6.3 allows for performance until February 1, 2025, creating ambiguity about the Agreement's actual end date.",
+          "The Payment Terms sections (4.3 and 6.2) conflict regarding late payment penalties and milestone payment deductions. Section 4.3 imposes a 1.5% monthly penalty for late payments, while Section 6.2 allows for a 5% deduction per week for delayed milestones, potentially leading to overlapping penalties.",
+          "The Confidentiality sections (8.2 and 8.3) conflict regarding the duration of confidentiality obligations. Section 8.2 states confidentiality obligations last five years post-termination, while Section 8.3 suggests they expire one year after termination, creating ambiguity about the confidentiality period.",
+          "The Intellectual Property sections (7.1 and 7.3) conflict regarding ownership rights. Section 7.1 grants CLIENT ownership of Deliverables, while Section 7.3 allows CONSULTANT to retain rights to methodologies and techniques, potentially leading to disputes over jointly-developed content.",
+          "The Governing Law and Dispute Resolution sections (11.1 and 11.3) conflict regarding jurisdiction. Section 11.1 states Delaware law governs the Agreement, while Section 11.3 specifies arbitration in New York City, creating jurisdictional ambiguity."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 2165,
+        "detector_model": "gpt-4o",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_contradiction_2",
+        "contract_type": "licensing_agreement",
+        "ground_truth": true,
+        "known_contradictions": [
+          "JSON parsing failed - manual review needed"
+        ],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 4.1 states the Term of the Agreement is until December 31, 2025, but Section 7 references an alternate termination date of December 31, 2024, creating a conflict regarding the overall contract duration.",
+          "Section 5.1 requires a one-time license fee of $50,000, while Section 5.4 outlines installment payments of $15,000 quarterly over two years, resulting in inconsistent payment structures.",
+          "Section 6.1 states Licensor retains all intellectual property rights, but Section 12 suggests Licensee may own certain derivative works, leading to inconsistencies regarding intellectual property ownership.",
+          "Section 8.2 specifies confidentiality obligations survive for five years post-termination, whereas Section 14.1 extends this period to ten years, creating a conflict in confidentiality duration.",
+          "Section 13.1 provides for a 30-day transitional technical support period post-termination, but Section 7.2 states support ceases immediately upon termination, creating a contradiction regarding post-termination support.",
+          "Section 12.1 limits liability to $100,000, but other sections imply a higher cap under certain circumstances, leading to ambiguity in liability limits."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 2385,
+        "detector_model": "gpt-4o",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_contradiction_3",
+        "contract_type": "partnership_agreement",
+        "ground_truth": true,
+        "known_contradictions": [
+          "Conflicting Payment Terms: Section 5.1 specifies quarterly distribution of Net Profits with payments made within 10 days after quarter-end, while Section 5.3 mandates monthly distributions with payments processed within 15 days after month-end, leading to ambiguity regarding the consistent schedule of profit distributions.",
+          "Conflicting Intellectual Property Ownership: Section 6.2 provides for joint ownership of Intellectual Property developed during the partnership, whereas Section 8.5 states that all Intellectual Property arising from the collaboration shall be solely owned by Partner B, except as otherwise provided in addenda. This creates uncertainty regarding the actual ownership structure.",
+          "Contradictory Termination Notice Periods: Section 8.4(a) requires a 30-day notice period for termination without cause, yet Section 11.1 later stipulates conditions that necessitate a 60-day notice period under certain circumstances, generating a potential conflict in the termination procedure.",
+          "Conflicting Confidentiality Duration: Section 7.2 establishes a confidentiality obligation for 5 years after termination, but Section 7.3 implies that, for certain highly sensitive information, confidentiality obligations may extend indefinitely, leading to potential disputes on confidentiality duration.",
+          "Inconsistent Governing Law and Dispute Resolution: Section 11.1 designates New York law as the governing law for this Agreement, while Section 9.4 mandates that disputes related solely to confidentiality be litigated in Delaware. This creates a jurisdictional ambiguity regarding which state’s laws and venue govern different aspects of disputes under this Agreement."
+        ],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 5.2 and Section 5.3 create ambiguity regarding the frequency and timing of profit distributions, with Section 5.2 stating quarterly distributions and Section 5.3 stating monthly distributions.",
+          "Section 6.2 and Section 8.5 conflict regarding the ownership of jointly developed Intellectual Property, with Section 6.2 stating joint ownership and Section 8.5 suggesting sole ownership by Partner B.",
+          "Section 7.2 and Section 10.2 create inconsistency regarding the duration of confidentiality obligations, with Section 7.2 stating a five-year duration post-termination and Section 10.2 suggesting indefinite duration for certain materials.",
+          "Section 8.4(a) and Section 11.1 contradict each other regarding the notice period for termination without cause, with Section 8.4(a) requiring a 30-day notice and Section 11.1 mandating a 60-day notice under certain conditions.",
+          "Section 9.3 and Section 9.4 provide conflicting dispute resolution mechanisms, with Section 9.3 requiring arbitration and Section 9.4 specifying litigation in Delaware for confidentiality breaches.",
+          "Section 11.1 and Section 9.4 create jurisdictional ambiguity, with Section 11.1 stating New York law governs the Agreement and Section 9.4 requiring litigation in Delaware for confidentiality disputes."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 2331,
+        "detector_model": "gpt-4o",
+        "generator_model": "o3-mini"
+      },
+      {
+        "contract_id": "o3_contradiction_4",
+        "contract_type": "non_disclosure_agreement",
+        "ground_truth": true,
+        "known_contradictions": [
+          "JSON parsing failed - manual review needed"
+        ],
+        "predicted_contradictions": true,
+        "detected_contradictions": [
+          "Section 8.1 states that confidentiality obligations last for three years from the termination of the Agreement, while Section 10.1 specifies a five-year period, creating ambiguity regarding the duration of confidentiality obligations.",
+          "Section 16.2 requires mediation in California, but Section 14.1 states that the Agreement is governed by New York law, creating a jurisdictional conflict.",
+          "Section 9.2 grants the Receiving Party a non-exclusive, royalty-free license for jointly developed intellectual property, while Section 11.1 states that such intellectual property is jointly owned, creating ambiguity about the rights and usage of jointly developed intellectual property.",
+          "Section 5.2 and Section 11 create ambiguity regarding the responsibility for documenting and preserving proprietary rights, leading to potential confusion over which Party is responsible in the event of a data breach."
+        ],
+        "confidence_score": 0.95,
+        "word_count": 2156,
+        "detector_model": "gpt-4o",
+        "generator_model": "o3-mini"
+      }
+    ],
+    "processing_time": 50.426162004470825
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-08-04T08:38:15.773403",
+    "generator_model": "o3-mini",
+    "detector_model": "gpt-4o",
+    "total_contracts": 0,
+    "correct_predictions": 0,
+    "accuracy": 0
+  },
+  "detailed_results": []
+}
